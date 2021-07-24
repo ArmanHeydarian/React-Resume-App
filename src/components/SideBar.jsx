@@ -6,7 +6,14 @@ import Col from "react-bootstrap/Col";
 
 class SideBar extends Component {
   state = {
-    Tags: ["AboutMe", "Education", "Experinces"],
+    Tags: [
+      "AboutMe",
+      "Education",
+      "Experinces",
+      "Awards",
+      "Skills",
+      "Certificates",
+    ],
   };
 
   SideStyle = {

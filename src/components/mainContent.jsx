@@ -5,6 +5,9 @@ import Col from "react-bootstrap/Col";
 import AboutMe from "./aboutMe";
 import Education from "./education";
 import Experience from "./experience";
+import Certificates from "./certificates";
+import Skills from "./Skills";
+
 class MainContent extends Component {
   state = {};
 
@@ -14,8 +17,14 @@ class MainContent extends Component {
         return <AboutMe />;
       case "Education":
         return <Education />;
-      default:
+      case "Experinces":
         return <Experience />;
+      case "Skills":
+        return <Skills />;
+      case "Certificates":
+        return <Certificates />;
+      default:
+        return <AboutMe />;
     }
   }
 }

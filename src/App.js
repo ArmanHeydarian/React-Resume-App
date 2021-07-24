@@ -20,16 +20,18 @@ class App extends Component {
     console.log(this.state.SelectedItem);
   };
   render() {
-    const BorderStyle = {
+    const contentStyle = {
       border: "2px solid rgba(0, 0, 0, 0.2)",
+      backgroundColor: "#fff",
+      minHeight: "700px",
     };
     return (
-      <Container style={{ margin: 20 }}>
+      <Container style={{ marginTop: 30 }}>
         <Row className="App">
           <Col md={2}>
             <SideBar OnChanging={this.handleClick}></SideBar>
           </Col>
-          <Col md={9} style={BorderStyle}>
+          <Col md={10} style={contentStyle}>
             <MainContent ShowContent={this.state.SelectedItem} />
           </Col>
         </Row>
