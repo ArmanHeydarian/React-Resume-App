@@ -1,8 +1,7 @@
-import logo from "./logo.svg";
 import "./App.css";
 import React, { Component } from "react";
 import SideBar from "./components/SideBar";
-import MainContent from "./components/mainContent";
+import MainContent from "./components/MainContent";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";

@@ -6,19 +6,9 @@ import Col from "react-bootstrap/Col";
 
 class SideBar extends Component {
   state = {
-    Tags: [
-      "AboutMe",
-      "Education",
-      "Experinces",
-      "Awards",
-      "Skills",
-      "Certificates",
-    ],
+    Tags: ["AboutMe", "Education", "Experinces", "Skills", "Certificates"],
   };
 
-  SideStyle = {
-    backgroundColor: "red",
-  };
   render() {
     return (
       <ListGroup>

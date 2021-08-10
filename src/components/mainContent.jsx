@@ -2,10 +2,10 @@ import React, { Component } from "react";
 
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Col from "react-bootstrap/Col";
-import AboutMe from "./aboutMe";
-import Education from "./education";
-import Experience from "./experience";
-import Certificates from "./certificates";
+import AboutMe from "./AboutMe";
+import Education from "./Education";
+import Experience from "./Experience";
+import Certificates from "./Certificates";
 import Skills from "./Skills";
 
 class MainContent extends Component {

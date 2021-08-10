@@ -7,6 +7,7 @@ import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
 import Table from "react-bootstrap/Table";
+import { PersonalData } from "../Data/Data";
 const styles = {
   bold: { fontWeight: "bold" },
   italic: { fontStyle: "italic" },
@@ -56,63 +57,48 @@ class AboutMe extends Component {
                         className="font-weight-bold"
                         style={{ marginTop: 20, textAlign: "left" }}
                       >
-                        <h3>Arman Heydarian</h3>
+                        <h3>{PersonalData.Name}</h3>
                       </Row>
                       <Row style={{ marginTop: 50, textAlign: "left" }}>
-                        <h6>Software FullStack Developer</h6>
+                        <h6>{PersonalData.Title}</h6>
                       </Row>
                       <Row style={{ marginTop: 20, textAlign: "left" }}>
-                        <h6>Back-End, FrontEnd </h6>
+                        <h6> {PersonalData.Profession}</h6>
                       </Row>
                     </Col>
                   </Row>
                 </Container>
-
-                <Col
-                  md={12}
+                <Row
+                  className="text-left"
                   style={{ padding: 20, borderTop: "solid 1px #cac7c7" }}
                 >
-                  <p className="text-start">
-                    My name is Arman with over 7 years of hands-on experience in
-                    designing and producing various softwares from Web
-                    Application to Management Information Systems (MIS) in both
-                    Back-end and Front-end. I enjoy being challenged and getting
-                    engaged with projects that requires me to work outside of my
-                    comfort zone so that I have won 2 prizes from Kharazmi and
-                    Zagros innovation awards for introducing best practice in
-                    software development. My experience has allowed me to attain
-                    a solid knowledge of the full lifecycle for software
-                    development projects based on new technologies. My technical
-                    and interpersonal skills have been extremely developed to
-                    act as a responsible team player in agile teams. It is worth
-                    noting that I am so interested in Research and Development.
-                  </p>
-                </Col>
+                  <p style={{ textAlign: "justify" }}>{PersonalData.AboutMe}</p>
+                </Row>
               </Tab.Pane>
               <Tab.Pane eventKey="interest">
                 <Table striped bordered hover style={{ marginTop: 50 }}>
                   <thead>
                     <tr>
                       <th>Hobbies</th>
-                      <th>Sport</th>
-                      <th>Profession</th>
+                      <th>Sports</th>
+                      <th>Interests</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Travelling</td>
-                      <td>Swimming</td>
-                      <td>Proggramming</td>
+                      <td>{PersonalData.Hobbies[0]}</td>
+                      <td>{PersonalData.Sport[0]}</td>
+                      <td>{PersonalData.Interests[0]}</td>
                     </tr>
                     <tr>
-                      <td>Movies</td>
-                      <td>Snooker</td>
-                      <td>Enterprise Software Architecture</td>
+                      <td>{PersonalData.Hobbies[1]}</td>
+                      <td>{PersonalData.Sport[1]}</td>
+                      <td>{PersonalData.Interests[1]}</td>
                     </tr>
                     <tr>
-                      <td>Painting</td>
-                      <td>Table Tennis</td>
-                      <td>AI Technologies</td>
+                      <td>{PersonalData.Hobbies[2]}</td>
+                      <td>{PersonalData.Sport[2]}</td>
+                      <td>{PersonalData.Interests[2]}</td>
                     </tr>
                   </tbody>
                 </Table>
@@ -122,24 +108,24 @@ class AboutMe extends Component {
                   <tbody>
                     <tr>
                       <td style={styles.bold}>Email</td>
-                      <td>Arman.Heydarian@gmail.com</td>
+                      <td>{PersonalData.Email}</td>
                     </tr>
                     <tr>
                       <td style={styles.bold}>Phone Number</td>
-                      <td>+98 9366115575</td>
+                      <td>{PersonalData.PhoneNumber}</td>
                     </tr>
                     <tr>
                       <td style={styles.bold}>LinkedIn</td>
                       <td>
-                        <a href="https://www.linkedin.com/in/arman-heydarian-814009118/">
-                          LinkedIn Profile
-                        </a>
+                        <a href={PersonalData.LinkedInUrl}>LinkedIn Profile</a>
                       </td>
                     </tr>
 
                     <tr>
-                      <td style={styles.bold}>Birthday</td>
-                      <td>September 21 1991</td>
+                      <td style={styles.bold}>Website</td>
+                      <td>
+                        <a href={PersonalData.Website}>Personal Website</a>
+                      </td>
                     </tr>
                   </tbody>
                 </Table>
