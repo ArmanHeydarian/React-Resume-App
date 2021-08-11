@@ -1,4 +1,5 @@
-export const ExperinceData = [
+// List of Experience Information in Json Format
+export const ExperienceData = [
   {
     TabTitle: "Day Insurance Inc",
     Title: "Software Developer at Day Insurance Inc",

@@ -5,6 +5,10 @@ import Card from "react-bootstrap/Card";
 import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 import { SkillsData } from "../Data/SkillsData";
 
+/* This Component will show the content of Personal Skills which has been storing in SkillsData.js
+   For Changing the information you need just to change the content of the SkillsData.js 
+   Each group of Skills will be shown as a React Card 
+   */
 class Skills extends Component {
   state = {};
   render() {

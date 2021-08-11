@@ -3,21 +3,26 @@ import Col from "react-bootstrap/Col";
 import Tab from "react-bootstrap/Tab";
 import Nav from "react-bootstrap/Nav";
 import Row from "react-bootstrap/Row";
-import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
 import Table from "react-bootstrap/Table";
-import { PersonalData } from "../Data/Data";
-const styles = {
-  bold: { fontWeight: "bold" },
-  italic: { fontStyle: "italic" },
-};
+import { PersonalData } from "../Data/PersonalData";
+import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 
+/* This Component will show the content of personal Information which has been storing in PersonalData.js
+   For Changing the information you need just to change the content of the PersonalData.js */
 class AboutMe extends Component {
+  // Name of tabs and their container in AboutMe component
   state = { Tags: ["Peronal-Info", "interest", "Contact"] };
+
+  styles = {
+    bold: { fontWeight: "bold" },
+    italic: { fontStyle: "italic" },
+  };
 
   render() {
     return (
+      // A container containing 3 tab.
       <Container>
         <Tab.Container id="left-tabs-example" defaultActiveKey="Peronal-Info">
           <Row>

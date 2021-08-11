@@ -10,7 +10,10 @@ import ReactPlayer from "react-player";
 import { EducationData } from "../Data/EducationData";
 import { Fragment } from "react";
 
+/* This Component will show the content of Education Information which has been storing in EducationData.js
+   For Changing the information you need just to change the content of the EducationData.js */
 class Education extends Component {
+  // Tabs titles in Education component
   state = { Tags: ["BACHELOR", "ASSOCIATE"] };
 
   render() {

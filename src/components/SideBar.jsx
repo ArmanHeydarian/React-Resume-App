@@ -6,11 +6,13 @@ import Col from "react-bootstrap/Col";
 
 class SideBar extends Component {
   state = {
+    // The List Items that will be showing on designed sidebar as resume Items
     Tags: ["AboutMe", "Education", "Experinces", "Skills", "Certificates"],
   };
 
   render() {
     return (
+      // Returns The list of top tags as SideBar Component
       <ListGroup>
         {this.state.Tags.map((tag) => (
           <SideButton

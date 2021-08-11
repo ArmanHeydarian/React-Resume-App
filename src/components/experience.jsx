@@ -7,9 +7,13 @@ import Nav from "react-bootstrap/Nav";
 import Image from "react-bootstrap/Image";
 import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 import ReactPlayer from "react-player";
-import { ExperinceData } from "../Data/ExperinceData";
+import { Experience } from "../Data/ExperienceData";
+
+/* This Component will show the content of Experience Information which has been storing in ExperienceData.js
+   For Changing the information you need just to change the content of the ExperienceData.js */
 class Experience extends Component {
   state = {
+    // Tabs titles in Experience component
     Tags: [
       "Day Insurance Inc",
       "Kankash Inc",

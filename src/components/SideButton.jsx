@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ListGroup from "react-bootstrap/ListGroup";
 
+// A component for representing sidebar buttons based on React ListGroup component
 class SideButton extends Component {
   state = {};
 
