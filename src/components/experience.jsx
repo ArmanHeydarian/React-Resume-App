@@ -7,7 +7,7 @@ import Nav from "react-bootstrap/Nav";
 import Image from "react-bootstrap/Image";
 import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 import ReactPlayer from "react-player";
-import { Experience } from "../Data/ExperienceData";
+import { ExperienceData } from "../data/ExperienceData";
 
 /* This Component will show the content of Experience Information which has been storing in ExperienceData.js
    For Changing the information you need just to change the content of the ExperienceData.js */
@@ -80,7 +80,7 @@ class Experience extends Component {
           </Row>
           <Row>
             <Tab.Content>
-              {ExperinceData.map((Item) => (
+              {ExperienceData.map((Item) => (
                 <Tab.Pane eventKey={Item.TabTitle}>
                   <Container>
                     <Row>

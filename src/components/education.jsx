@@ -7,7 +7,7 @@ import Nav from "react-bootstrap/Nav";
 import Image from "react-bootstrap/Image";
 import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 import ReactPlayer from "react-player";
-import { EducationData } from "../Data/EducationData";
+import { EducationData } from "../data/EducationData";
 import { Fragment } from "react";
 
 /* This Component will show the content of Education Information which has been storing in EducationData.js

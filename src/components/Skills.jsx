@@ -3,7 +3,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import "../../node_modules/bootstrap/dist/css/bootstrap.css";
-import { SkillsData } from "../Data/SkillsData";
+import { SkillsData } from "../data/SkillsData";
 
 /* This Component will show the content of Personal Skills which has been storing in SkillsData.js
    For Changing the information you need just to change the content of the SkillsData.js 

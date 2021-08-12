@@ -2,7 +2,7 @@ import React, { Component, Fragment } from "react";
 import { Container } from "react-bootstrap";
 import "react-image-gallery/styles/css/image-gallery.css";
 import ImageGallery from "react-image-gallery";
-import { images } from "../Data/CertificateData";
+import { images } from "../data/CertificateData";
 
 /* This Component will show an React ImageGallery that is containing certificate images in public folder.
    The Certificate file address are stored in CertificateData.js
