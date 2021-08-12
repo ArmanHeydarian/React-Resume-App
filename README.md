@@ -1,4 +1,4 @@
-# React Resume App
+# React App Resume
 
 React-App-Resume is an open-source personal website written in ReactJs for presenting your information and work experiences to people like recruiters, talent seekers and etc..
 The information you can present are included but not limited to, the following items:
