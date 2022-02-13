@@ -4,11 +4,12 @@ export const SkillsData = [
     bg: "info",
     Title: "Back-End",
     Content: [
-      ".Net Core, .Net Framework",
-      "Asp.net Mvc",
-      "WCF, WPF , UnitTest",
-      "Entity FrameWork",
-      "Java and Spring FrameWork",
+      "Java (J2EE)",
+      "Spring Boot",
+      "Hibernate and JPA",
+      "UnitTest and Integration Test",
+      "Integration Framework",
+      "familar with Python",
     ],
   },
   {
@@ -50,8 +51,8 @@ export const SkillsData = [
       "Problem Solving",
       "Adaptability and Creativity",
       "Collaboration and Teamwork",
-      "Self Motivated",
-      "Willingness to learn",
+      "Self Motivated and Learner",
+      "Willingness to learn new Technologies",
     ],
   },
 ];
