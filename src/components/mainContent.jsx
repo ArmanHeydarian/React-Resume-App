@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Col from "react-bootstrap/Col";
 import AboutMe from "./AboutMe";
 import Education from "./Education";
-import Experience from "./Experiences";
+import Experiences from "./Experiences";
 import Certificates from "./Certificates";
 import Skills from "./Skills";
 
@@ -18,7 +18,7 @@ class MainContent extends Component {
       case "Education":
         return <Education />;
       case "Experinces":
-        return <Experience />;
+        return <Experiences />;
       case "Skills":
         return <Skills />;
       case "Certificates":
