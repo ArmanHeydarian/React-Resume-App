@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Col from "react-bootstrap/Col";
 import AboutMe from "./AboutMe";
 import Education from "./Education";
-import Experience from "./Experience";
+import Experience from "./Experiences";
 import Certificates from "./Certificates";
 import Skills from "./Skills";
 

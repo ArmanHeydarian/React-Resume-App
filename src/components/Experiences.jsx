@@ -118,4 +118,4 @@ class Experiences extends Component {
   }
 }
 
-export default Experience;
+export default Experiences;
