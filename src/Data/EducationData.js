@@ -26,7 +26,7 @@ export const EducationData = [
       " won the prize of Kharazmi award by presenting this product. It is worth noting that some of Iranian" +
       " soccer clubs (e.g. Esteghlal and Kerman) have been using this software in their training courses.",
 
-    Technologies: "C#, Animation Graphic Techninques, Windows FileSystem.",
+    Technologies: "Animation Graphic Techninques, Windows FileSystem.",
     RefrenceUrl: "https://youtu.be/9f9LMC1Jdhc",
   },
 ];

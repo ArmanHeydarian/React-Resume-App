@@ -103,13 +103,8 @@ class Experience extends Component {
 
                         <Row className="text-left">
                           <p className="text-start">{Item.Description}</p>
-                          <h6 className="text-start"> Technologies : </h6>
-
-                          <p className="text-start">{Item.Technologies}</p>
                         </Row>
-                        <Row>{PresentaionFrame(Item)}</Row>
                         <hr />
-                        <Row>{CatalogueFrame(Item)}</Row>
                       </Col>
                     </Row>
                   </Container>

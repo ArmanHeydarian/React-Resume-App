@@ -7,7 +7,7 @@ import Col from "react-bootstrap/Col";
 class SideBar extends Component {
   state = {
     // The List Items that will be showing on designed sidebar as resume Items
-    Tags: ["AboutMe", "Education", "Experinces", "Skills", "Certificates"],
+    Tags: ["AboutMe", "Education", "Skills", "Certificates" , "Experiences"],
   };
 
   render() {
